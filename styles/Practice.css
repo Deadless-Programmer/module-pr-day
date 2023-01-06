@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  
+}
+.banner-item {
+  width: 100%;
+  height: 100vh;
+  /* background-color: beige; */
+  background-image: url("../images/donation7.jpg");
+  /* margin: 0 auto; */
+  /* opacity: 0.7; */
+  background-size: cover;
+  /* -moz-box-shadow: inset 0px 850px 500px -500px rgba(255, 255, 255, 0.014);
+  -webkit-box-shadow: inset 5px 850px 500px -500px rgba(255, 255, 255, 0);
+  -o-box-shadow: inset 0px 850px 500px -500px rgb(255, 255, 255); */
+  box-shadow: inset 0px 850px 500px -500px rgba(0, 0, 0, 0.705);
+  background-position: center;
+  background-blend-mode: overlay;
+  opacity: 0.9;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.Lets-Help {
+  padding-top: 300px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.paragraph {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 400px;
+  color: white;
+  text-align: center;
+}
+.btn-primary {
+  /* height: 64px; */
+  background-color: red;
+  color: white;
+  border: 0;
+  font-size: 30px;
+  font-weight: 500;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 18px 36px;
+  /* vertical-align: auto; */
+  /* position: absolute;
+  display: flex; */
+  justify-content: center;
+  /* margin-top: 90px; */
+  /* text-align: center; */
+  margin: 60px auto;
+  display: block;
+  /* justify-content: center; */
+  margin-bottom: 80px;
+ 
+  
+  
+}
+
+.money-donate{
+  width: 100%;
+  height: 100vh;
+ 
+  /* padding-top: 2px;
+  margin-top: 200px;
+  background-color:rgb(242, 252, 252) */
+}
+.doante-header{
+  font-size: 30px;
+  color: black;
+  margin-top: 200px;
+  text-align: center;
+
+}
+.header-paragraph{
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.664);
+  margin-top: 30px;
+  text-align: center;
+
+}
+/* money section */
+
+.money-equality{
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+  /* text-align: center; */
+  margin-left: 23%;
+  /* justify-content: space-around; */
+ 
+}
+.one-hundred{
+  /* border:  3px solid red; */
+  border-radius: 10px;
+  padding: 50px 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.705);
+  background-color: rgb(242, 247, 247);
+  
+
+}
+.two-hundred{
+  /* border:  3px solid red; */
+  border-radius: 10px;
+  padding: 50px 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.705);
+  background-color: rgb(242, 247, 247);
+
+}
+.three-hundred{
+  /* border:  3px solid red; */
+  border-radius: 10px;
+  padding: 50px 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.705);
+  background-color: rgb(242, 247, 247);
+
+}
+.four-hundred{
+  /* border:  3px solid red; */
+  border-radius: 10px;
+  padding: 50px 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.705);
+  background-color: rgb(242, 247, 247);
+
+}
+.five-hundred{
+  /* border:  3px solid red; */
+  border-radius: 10px;
+  padding: 50px 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.705);
+  background-color: rgb(242, 247, 247);
+
+}
+
+.one-hundred:hover{
+  background-color: rgb(207, 228, 149);
+  /* border: 3px solid red; */
+  color: red;
+}
+.two-hundred:hover{
+  background-color: rgb(207, 228, 149);
+  /* border: 3px solid red; */
+  color: red;
+}
+.three-hundred:hover{
+  background-color: rgb(207, 228, 149);
+  /* border: 3px solid red; */
+  color: red;
+}
+.four-hundred:hover{
+  background-color: rgb(207, 228, 149);
+  /* border: 3px solid red; */
+  color: red;
+}
+.five-hundred:hover{
+  background-color: rgb(207, 228, 149);
+  /* border: 3px solid red; */
+  color: red;
+}
+
+.other-amount{
+  color: rgba(0, 0, 0, 0.322);
+  font-size: 30px;
+  font-weight: 5px;
+  margin-top: 50px;
+  text-align: center;
+
+}
+.solid-line{
+  color: rgba(0, 0, 0, 0.322);
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+/* custom bottom */
+.button-btn{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 50px;
+  background-color: red;
+  padding: 20px 0px;
+  margin-left: 700px;
+  margin-right: 700px;
+  border-radius: 10px;
+  color: white;
+}
+/* service-content */
+.service-content{
+  width: 100%;
+  height: 100vh;
+  margin-top: -110px;
+  
+}
+/* food service */
+.food-service{
+  background-color: aqua;
+  margin-right: 1280px;
+  margin-top: 150px;
+  padding: 30px 500px;
+
+}
+
+.food-total-content{
+  margin-left: 20px;
+}
+
+.food-header{
+  margin-top:20px;
+}
+.food-paragraph{
+  margin-top:20px;
+}
+
+
+
+.food-container{
+  display: flex;
+  /* text-align: center; */
+  margin-top: 150px;
+  margin-left: 17%;
+
+}
+.food-title{
+  font-size: 20px;
+  font-weight: 700px;
+}
+.food-development{
+  color: rgba(0, 0, 0, 0.87);
+}
+.food{
+  background-color: rgb(252, 230, 230);
+  box-shadow: opx 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 50px 20px;
+  padding-bottom: 40px;
+  margin-left: 30px;
+}
+
+.food-title{
+  margin-top: 30px;
+}
+
+.food-development{
+  margin-top: 20px;
+}
+.btn-contribute{
+  background-color: red;
+  color: white;
+  border: 0;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 18px 36px;
+  /* vertical-align: auto; */
+  /* position: absolute;
+  display: flex; */
+  /* justify-content: center; */
+  /* margin-top: 90px; */
+  /* text-align: center; */
+  /* margin: auto; */
+  /* display: block; */
+  /* justify-content: center; */
+  /* margin-bottom: 80px; */
+
+}
+.header-content{
+  font-size: 45px;
+  color: black;
+  margin-top: 200px;
+}
+.header-paragraph-two{
+font-size: 18px;
+font-weight: 700px;
+color: rgba(0, 0, 0, 0.712);
+}
+.img1-d{
+  border-radius: 5px;
+  margin-top: 212px;
+}
+.parant{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  margin-top: -50px;
+  
+}
+
+.header-content-2{
+  font-size: 45px;
+  color: black;
+  margin-top: 225px;
+}
+
+.parant-2{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 20px;
+  margin-top: -100px;
+  margin-left: 260px;
+}
+.footer-class{
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  margin: 60px auto;
+  display: block;
+  background-color: rgb(2, 1, 10);
+  margin-top: 80px;
+}
+.lobester-font{
+text-align: center;
+font-family: 'Lobster', cursive;
+color: #C21E56;
+font-size: 60px;
+/* margin-top: 100px; */
+display: block;
+
+}
+
+.footer-paragraph{
+  color: white;
+  font-size: 25px;
+  font-weight: 400px;
+  text-align: center;
+  /* margin-top: 50px auto; */
+  
+}
+.footer-font{
+  padding-top: 90px;
+  align-items: center;
+}
